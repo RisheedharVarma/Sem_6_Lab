@@ -1,4 +1,4 @@
-'''
+/*
 Write a c program to find the type of texts in the program
 
 Example: 
@@ -25,7 +25,8 @@ Expected Output:
 Integer
 Identifier
 Operator
-'''
+*/
+
 #include<stdio.h>
 void checknum(char ch){
    if(ch >= 65 && ch <= 122)
