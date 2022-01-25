@@ -4,9 +4,7 @@ s = 0
 a = {}
 k = 1
 while k <= N:
-    #<dynamically create key> 
-    key = k
-    #<calculate value> 
+    key = k 
     print("enter numbers in list(",k,"):")
     value = [int(x) for x in input().split()] 
     a[key] = value 
