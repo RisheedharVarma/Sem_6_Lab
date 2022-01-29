@@ -13,10 +13,10 @@ iv) print the values in 3rd column of the dataset fully and value at index [5,9]
 import pandas as pd
 #read csv
 df = pd.read_csv('salary.csv')
-rows in dataset
+#rows in dataset
 for i in range(len(df)) :
   print(df.iloc[i, 0], df.iloc[i, 2])
-colums in dataset
+#colums in dataset
 df.columns
 #size of dataset
 df.size
